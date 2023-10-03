@@ -8,7 +8,7 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-	display: flex;
+	display: flex-p1;
 	list-style: none;
 	align-items: center;
 	justify-content: space-evenly;
@@ -22,7 +22,7 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-	display: flex;
+	display: flex-p2;
 	margin: 0;
 	padding: 0;	
 }
@@ -50,14 +50,14 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-	display: flex;
+	display: flex-p3;
 	align-items: center;
 	padding: 35%;
 }
 
 #flex-section3 .tags ul {
 	list-style: none;
-	display: flex;
+	display: flex-p3;
 	flex-wrap: wrap;
 	flex-direction: row;
 	margin: 0;
@@ -70,7 +70,7 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-	display: grid;
+	display: grid-p1;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
   	grid-gap: 20px;
   	grid-auto-rows: 100px;
@@ -99,7 +99,7 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
-	display: grid;
+	display: grid-p3;
 	grid-template-columns: 2fr 1fr;
 	grid-template-rows: 100px 300px 100px;
 	grid-gap: 10px;
